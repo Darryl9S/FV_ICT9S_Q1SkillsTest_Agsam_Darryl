@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Robotics Club Application Form</title>
+    <style>
+    section{
+    	background-image: url(https://t3.ftcdn.net/jpg/08/81/99/54/360_F_881995462_faGZuR7VnpWV3SVE1JDv941MOUrpxea0.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    	padding: 25px;
+    	border-radius: 20px;
+    	width: 800px;
+    	margin: auto;
+    	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font-size: 20px;        
+    }
+
+    input[type="text"], textarea, input[type="submit"] {
+    	width: 96%;
+    	padding: 15px;
+    	border: 1px solid #ccc;
+    	border-radius: 7px;
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <form>
+            <img style="display: block;height: 200px; width: 200px; margin: 0 auto; " src="https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png" alt="OBMC Logo">
+            <header>
+                <h1 style="color: navy;">OBMC Robotics Club Application Form</h1>
+                <br>
+                <p>Welcome to this years 2026-2027 OBMC Robotics Club Application Form. Fill this form out to apply.</p>
+            </header>
+            
+            <br>
+
+            <label for="Full_Name">Full Name :</label>
+            <br>
+            <input type="text" id="Full_Name" name="Full_Name" placeholder="Your answer">
+            <br>
+
+            <br>
+
+            <label for="Email">Email :</label>
+            <br>
+            <input type="text" id="Email" name="Email" placeholder="Your answer">
+            <br>
+
+            <br>
+
+            <label for="Section">Grade Level :</label>
+            <select id="section" name="GradeLevel">
+                <option value="Grade7">Grade 7</option>
+                <option value="Grade8">Grade 8</option>
+                <option value="Grade9">Grade 9</option>
+            </select>
+            <br>
+
+            <br>
+
+            <label for="Gender">Gender :</label>
+            <input type="radio" id="Male" name="Gender">
+            <label for="Gender">Male</label>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Gender">Female</label>
+            <br>
+
+            <br>
+            <label for="Reason">Why do you want to join the Robotics Club :</label>
+            <br>
+            <br>
+            <textarea id="Reason" placeholder="Your answer" rows="4" cols="105"></textarea>
+
+            <p style="color: navy;"><strong>Robotic Activities We Offer:</strong></p>
+            <ul>
+             <li>Build a Robot</li>
+             <li>Robot Race</li>
+             <li>Robot Battle</li>
+            </ul>
+
+            <br>
+
+            <p style="color: navy;"><strong>Here are some helpful links to get started with!</strong></p>
+            <ol>
+            <li><a href="https://www.britannica.com/technology/robotics" target="_blank">Britannica</a></li>
+            <li><a href="https://www.mtu.edu/academics/robotics/what/" target="_blank">Michigan Tech</a></li>
+            </ol>
+            <br>
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </section>
+</body>
+</html>
